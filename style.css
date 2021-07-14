@@ -1,0 +1,91 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+}
+.h1_big{
+   font-size: 30px;
+   color: #EC4C7A;
+}
+a{
+    text-decoration: none;
+    padding: 10px 35px;
+    background-image:linear-gradient(#EC5094,#EC4B74);
+    color: white;
+    border-radius: 5px;
+    font-weight:bolder ;
+}
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 3%;
+}
+.half_width img{
+    width: 100%;
+}
+.sec1{
+   background-repeat: no-repeat;
+   background-image: url("images/header-bg.png");
+   background-size: cover;
+}
+section{
+    height:630px;
+}
+.sec2{
+    margin-top: 100px;
+    background-image: url("images/biography-bg.png");
+}
+.padding_down{
+    padding-top: 150px;
+}
+.sec3{
+    margin-top: 100px;
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+    height: 500px;
+}
+.sec3 h2{
+   text-align:center;
+   font-weight:bolder ;
+}
+.row{
+    box-sizing: border-box;
+}
+.pic3s img {
+ float: left;
+  width: 26.33%;
+  box-sizing: border-box;
+  margin-left: 5%;
+}/* div e float disos ... div abar float hoy kmne ! image na div er modde float korbe !!*/
+
+.opacity{
+    opacity: .5;
+}
+.sec4 h2 ,p{
+    text-align: center;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.lastinlast{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100px;
+    width: 500px;
+    background-image:linear-gradient(90deg,#EC5196,#EC4D82,#ED4B73);
+}
+.sec4{
+    margin-top: 100px;
+    height: 500px;
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+}
+footer{
+    margin-top: 120px;
+    opacity: .5;
+    text-align: center;
+    padding-bottom: 10px;
+}
